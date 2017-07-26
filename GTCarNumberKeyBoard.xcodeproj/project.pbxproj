@@ -13,6 +13,30 @@
 		04DC59DC1F283C6D00896E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC59DA1F283C6D00896E1F /* Main.storyboard */; };
 		04DC59DE1F283C6D00896E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DC59DD1F283C6D00896E1F /* Assets.xcassets */; };
 		04DC59E11F283C6D00896E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC59DF1F283C6D00896E1F /* LaunchScreen.storyboard */; };
+		04DC5A031F283D3D00896E1F /* GTCarNumFullKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC59EB1F283D3D00896E1F /* GTCarNumFullKeyBoard.m */; };
+		04DC5A041F283D3D00896E1F /* GTCarNumFullKeyBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DC59EC1F283D3D00896E1F /* GTCarNumFullKeyBoard.xib */; };
+		04DC5A051F283D3E00896E1F /* GTNumberAndAlphebetKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC59EE1F283D3D00896E1F /* GTNumberAndAlphebetKeyboard.m */; };
+		04DC5A061F283D3E00896E1F /* GTNumberAndAlphebetKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DC59EF1F283D3D00896E1F /* GTNumberAndAlphebetKeyboard.xib */; };
+		04DC5A0B1F283D3E00896E1F /* HJFCustomKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC59F71F283D3D00896E1F /* HJFCustomKeyboardButton.m */; };
+		04DC5A0C1F283D3E00896E1F /* HJFKeyboardPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC59F91F283D3D00896E1F /* HJFKeyboardPopView.m */; };
+		04DC5A0D1F283D3E00896E1F /* HJFKeyboardPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DC59FA1F283D3D00896E1F /* HJFKeyboardPopView.xib */; };
+		04DC5A111F283D3E00896E1F /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC5A021F283D3D00896E1F /* UIImage+ImageWithColor.m */; };
+		04DC5A261F283D4F00896E1F /* keyboard-click-1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A151F283D4F00896E1F /* keyboard-click-1.aiff */; };
+		04DC5A271F283D4F00896E1F /* keyboard-click-2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A161F283D4F00896E1F /* keyboard-click-2.aiff */; };
+		04DC5A281F283D4F00896E1F /* keyboard_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A171F283D4F00896E1F /* keyboard_back@2x.png */; };
+		04DC5A291F283D4F00896E1F /* keyboard_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A181F283D4F00896E1F /* keyboard_back@3x.png */; };
+		04DC5A2A1F283D4F00896E1F /* keyboard_case_lower@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A191F283D4F00896E1F /* keyboard_case_lower@2x.png */; };
+		04DC5A2B1F283D4F00896E1F /* keyboard_case_lower@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A1A1F283D4F00896E1F /* keyboard_case_lower@3x.png */; };
+		04DC5A2C1F283D4F00896E1F /* keyboard_case_upper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A1B1F283D4F00896E1F /* keyboard_case_upper@2x.png */; };
+		04DC5A2D1F283D4F00896E1F /* keyboard_case_upper@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A1C1F283D4F00896E1F /* keyboard_case_upper@3x.png */; };
+		04DC5A2E1F283D4F00896E1F /* keyboard_fold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A1D1F283D4F00896E1F /* keyboard_fold@2x.png */; };
+		04DC5A2F1F283D4F00896E1F /* keyboard_fold@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A1E1F283D4F00896E1F /* keyboard_fold@3x.png */; };
+		04DC5A301F283D4F00896E1F /* keyboard_pop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A1F1F283D4F00896E1F /* keyboard_pop@2x.png */; };
+		04DC5A311F283D4F00896E1F /* keyboard_pop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A201F283D4F00896E1F /* keyboard_pop@3x.png */; };
+		04DC5A321F283D4F00896E1F /* keyboard_pop_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A211F283D4F00896E1F /* keyboard_pop_left@2x.png */; };
+		04DC5A331F283D4F00896E1F /* keyboard_pop_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A221F283D4F00896E1F /* keyboard_pop_left@3x.png */; };
+		04DC5A341F283D4F00896E1F /* keyboard_pop_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A231F283D4F00896E1F /* keyboard_pop_right@2x.png */; };
+		04DC5A351F283D4F00896E1F /* keyboard_pop_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DC5A241F283D4F00896E1F /* keyboard_pop_right@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +50,36 @@
 		04DC59DD1F283C6D00896E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DC59E01F283C6D00896E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DC59E21F283C6D00896E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DC59E91F283D3D00896E1F /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		04DC59EA1F283D3D00896E1F /* GTCarNumFullKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCarNumFullKeyBoard.h; sourceTree = "<group>"; };
+		04DC59EB1F283D3D00896E1F /* GTCarNumFullKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCarNumFullKeyBoard.m; sourceTree = "<group>"; };
+		04DC59EC1F283D3D00896E1F /* GTCarNumFullKeyBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTCarNumFullKeyBoard.xib; sourceTree = "<group>"; };
+		04DC59ED1F283D3D00896E1F /* GTNumberAndAlphebetKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTNumberAndAlphebetKeyboard.h; sourceTree = "<group>"; };
+		04DC59EE1F283D3D00896E1F /* GTNumberAndAlphebetKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTNumberAndAlphebetKeyboard.m; sourceTree = "<group>"; };
+		04DC59EF1F283D3D00896E1F /* GTNumberAndAlphebetKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTNumberAndAlphebetKeyboard.xib; sourceTree = "<group>"; };
+		04DC59F61F283D3D00896E1F /* HJFCustomKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFCustomKeyboardButton.h; sourceTree = "<group>"; };
+		04DC59F71F283D3D00896E1F /* HJFCustomKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFCustomKeyboardButton.m; sourceTree = "<group>"; };
+		04DC59F81F283D3D00896E1F /* HJFKeyboardPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJFKeyboardPopView.h; sourceTree = "<group>"; };
+		04DC59F91F283D3D00896E1F /* HJFKeyboardPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJFKeyboardPopView.m; sourceTree = "<group>"; };
+		04DC59FA1F283D3D00896E1F /* HJFKeyboardPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJFKeyboardPopView.xib; sourceTree = "<group>"; };
+		04DC5A011F283D3D00896E1F /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		04DC5A021F283D3D00896E1F /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		04DC5A151F283D4F00896E1F /* keyboard-click-1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "keyboard-click-1.aiff"; sourceTree = "<group>"; };
+		04DC5A161F283D4F00896E1F /* keyboard-click-2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "keyboard-click-2.aiff"; sourceTree = "<group>"; };
+		04DC5A171F283D4F00896E1F /* keyboard_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_back@2x.png"; sourceTree = "<group>"; };
+		04DC5A181F283D4F00896E1F /* keyboard_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_back@3x.png"; sourceTree = "<group>"; };
+		04DC5A191F283D4F00896E1F /* keyboard_case_lower@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_case_lower@2x.png"; sourceTree = "<group>"; };
+		04DC5A1A1F283D4F00896E1F /* keyboard_case_lower@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_case_lower@3x.png"; sourceTree = "<group>"; };
+		04DC5A1B1F283D4F00896E1F /* keyboard_case_upper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_case_upper@2x.png"; sourceTree = "<group>"; };
+		04DC5A1C1F283D4F00896E1F /* keyboard_case_upper@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_case_upper@3x.png"; sourceTree = "<group>"; };
+		04DC5A1D1F283D4F00896E1F /* keyboard_fold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_fold@2x.png"; sourceTree = "<group>"; };
+		04DC5A1E1F283D4F00896E1F /* keyboard_fold@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_fold@3x.png"; sourceTree = "<group>"; };
+		04DC5A1F1F283D4F00896E1F /* keyboard_pop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_pop@2x.png"; sourceTree = "<group>"; };
+		04DC5A201F283D4F00896E1F /* keyboard_pop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_pop@3x.png"; sourceTree = "<group>"; };
+		04DC5A211F283D4F00896E1F /* keyboard_pop_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_pop_left@2x.png"; sourceTree = "<group>"; };
+		04DC5A221F283D4F00896E1F /* keyboard_pop_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_pop_left@3x.png"; sourceTree = "<group>"; };
+		04DC5A231F283D4F00896E1F /* keyboard_pop_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_pop_right@2x.png"; sourceTree = "<group>"; };
+		04DC5A241F283D4F00896E1F /* keyboard_pop_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_pop_right@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +112,7 @@
 		04DC59D01F283C6D00896E1F /* GTCarNumberKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				04DC59E81F283D1200896E1F /* CarNumberKeyBoard */,
 				04DC59D41F283C6D00896E1F /* AppDelegate.h */,
 				04DC59D51F283C6D00896E1F /* AppDelegate.m */,
 				04DC59D71F283C6D00896E1F /* ViewController.h */,
@@ -77,6 +132,51 @@
 				04DC59D21F283C6D00896E1F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DC59E81F283D1200896E1F /* CarNumberKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				04DC5A121F283D4F00896E1F /* keyboard resources */,
+				04DC59E91F283D3D00896E1F /* Constant.h */,
+				04DC59EA1F283D3D00896E1F /* GTCarNumFullKeyBoard.h */,
+				04DC59EB1F283D3D00896E1F /* GTCarNumFullKeyBoard.m */,
+				04DC59EC1F283D3D00896E1F /* GTCarNumFullKeyBoard.xib */,
+				04DC59ED1F283D3D00896E1F /* GTNumberAndAlphebetKeyboard.h */,
+				04DC59EE1F283D3D00896E1F /* GTNumberAndAlphebetKeyboard.m */,
+				04DC59EF1F283D3D00896E1F /* GTNumberAndAlphebetKeyboard.xib */,
+				04DC59F61F283D3D00896E1F /* HJFCustomKeyboardButton.h */,
+				04DC59F71F283D3D00896E1F /* HJFCustomKeyboardButton.m */,
+				04DC59F81F283D3D00896E1F /* HJFKeyboardPopView.h */,
+				04DC59F91F283D3D00896E1F /* HJFKeyboardPopView.m */,
+				04DC59FA1F283D3D00896E1F /* HJFKeyboardPopView.xib */,
+				04DC5A011F283D3D00896E1F /* UIImage+ImageWithColor.h */,
+				04DC5A021F283D3D00896E1F /* UIImage+ImageWithColor.m */,
+			);
+			name = CarNumberKeyBoard;
+			sourceTree = "<group>";
+		};
+		04DC5A121F283D4F00896E1F /* keyboard resources */ = {
+			isa = PBXGroup;
+			children = (
+				04DC5A151F283D4F00896E1F /* keyboard-click-1.aiff */,
+				04DC5A161F283D4F00896E1F /* keyboard-click-2.aiff */,
+				04DC5A171F283D4F00896E1F /* keyboard_back@2x.png */,
+				04DC5A181F283D4F00896E1F /* keyboard_back@3x.png */,
+				04DC5A191F283D4F00896E1F /* keyboard_case_lower@2x.png */,
+				04DC5A1A1F283D4F00896E1F /* keyboard_case_lower@3x.png */,
+				04DC5A1B1F283D4F00896E1F /* keyboard_case_upper@2x.png */,
+				04DC5A1C1F283D4F00896E1F /* keyboard_case_upper@3x.png */,
+				04DC5A1D1F283D4F00896E1F /* keyboard_fold@2x.png */,
+				04DC5A1E1F283D4F00896E1F /* keyboard_fold@3x.png */,
+				04DC5A1F1F283D4F00896E1F /* keyboard_pop@2x.png */,
+				04DC5A201F283D4F00896E1F /* keyboard_pop@3x.png */,
+				04DC5A211F283D4F00896E1F /* keyboard_pop_left@2x.png */,
+				04DC5A221F283D4F00896E1F /* keyboard_pop_left@3x.png */,
+				04DC5A231F283D4F00896E1F /* keyboard_pop_right@2x.png */,
+				04DC5A241F283D4F00896E1F /* keyboard_pop_right@3x.png */,
+			);
+			path = "keyboard resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +239,26 @@
 			files = (
 				04DC59E11F283C6D00896E1F /* LaunchScreen.storyboard in Resources */,
 				04DC59DE1F283C6D00896E1F /* Assets.xcassets in Resources */,
+				04DC5A0D1F283D3E00896E1F /* HJFKeyboardPopView.xib in Resources */,
+				04DC5A2F1F283D4F00896E1F /* keyboard_fold@3x.png in Resources */,
+				04DC5A041F283D3D00896E1F /* GTCarNumFullKeyBoard.xib in Resources */,
+				04DC5A301F283D4F00896E1F /* keyboard_pop@2x.png in Resources */,
+				04DC5A261F283D4F00896E1F /* keyboard-click-1.aiff in Resources */,
+				04DC5A281F283D4F00896E1F /* keyboard_back@2x.png in Resources */,
+				04DC5A291F283D4F00896E1F /* keyboard_back@3x.png in Resources */,
+				04DC5A271F283D4F00896E1F /* keyboard-click-2.aiff in Resources */,
+				04DC5A351F283D4F00896E1F /* keyboard_pop_right@3x.png in Resources */,
 				04DC59DC1F283C6D00896E1F /* Main.storyboard in Resources */,
+				04DC5A341F283D4F00896E1F /* keyboard_pop_right@2x.png in Resources */,
+				04DC5A311F283D4F00896E1F /* keyboard_pop@3x.png in Resources */,
+				04DC5A2C1F283D4F00896E1F /* keyboard_case_upper@2x.png in Resources */,
+				04DC5A2E1F283D4F00896E1F /* keyboard_fold@2x.png in Resources */,
+				04DC5A331F283D4F00896E1F /* keyboard_pop_left@3x.png in Resources */,
+				04DC5A321F283D4F00896E1F /* keyboard_pop_left@2x.png in Resources */,
+				04DC5A2A1F283D4F00896E1F /* keyboard_case_lower@2x.png in Resources */,
+				04DC5A2B1F283D4F00896E1F /* keyboard_case_lower@3x.png in Resources */,
+				04DC5A061F283D3E00896E1F /* GTNumberAndAlphebetKeyboard.xib in Resources */,
+				04DC5A2D1F283D4F00896E1F /* keyboard_case_upper@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +270,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DC59D91F283C6D00896E1F /* ViewController.m in Sources */,
+				04DC5A111F283D3E00896E1F /* UIImage+ImageWithColor.m in Sources */,
 				04DC59D61F283C6D00896E1F /* AppDelegate.m in Sources */,
+				04DC5A0C1F283D3E00896E1F /* HJFKeyboardPopView.m in Sources */,
+				04DC5A0B1F283D3E00896E1F /* HJFCustomKeyboardButton.m in Sources */,
+				04DC5A031F283D3D00896E1F /* GTCarNumFullKeyBoard.m in Sources */,
+				04DC5A051F283D3E00896E1F /* GTNumberAndAlphebetKeyboard.m in Sources */,
 				04DC59D31F283C6D00896E1F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

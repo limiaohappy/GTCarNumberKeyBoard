@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GTNumberAndAlphebetKeyboard">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="243"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtA-qF-kTV" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="3" y="5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="1">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaR-qa-69D" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="45.5" y="5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="2">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vS8-Zl-KWP" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="87.5" y="5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="3">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbP-nW-ENw" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="130" y="5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="4">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDR-iw-28m" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="172" y="5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="5">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ol-Sk-fqC" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="214.5" y="5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="6">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzO-m0-FiM" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="257" y="5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="7">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLw-l9-whR" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="299" y="5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="8">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3X-y5-rV5" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="341.5" y="5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="9">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqj-jN-VVm" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="383.5" y="5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="0">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEU-Xh-cHk" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="3" y="65.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Q">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcP-wd-kQu" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="45" y="65.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="W">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcG-3x-3AQ" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="87" y="65.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="E">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f44-zZ-bpn" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="129" y="65.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="R">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dq9-0V-mQa" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="171.5" y="65.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="T">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjQ-Oi-wEI" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="214" y="65.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Y">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxT-ed-Y3E" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="256" y="65.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="U">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4E-6M-wWq" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="298.5" y="66" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="I">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJB-YY-vaf" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="341" y="65.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="O">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIq-v1-J1c" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="383.5" y="65.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="P">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B95-Qv-IPz" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="25.5" y="125.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="A">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTw-kk-9Ok" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="67.5" y="125.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="S">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IuY-M0-Y87" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="110" y="125.5" width="36.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="D">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdK-Zq-Jbv" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="151.5" y="125.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="F">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M52-ur-Rer" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="193.5" y="125.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="G">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jR-Ag-1Gt" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="235.5" y="125.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="H">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqW-kq-VmF" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="278" y="125.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="J">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5k-vh-UAe" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="320.5" y="125.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="K">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kab-Wa-gv6" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="362.5" y="125.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="L">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omi-Gy-ed4" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="3" y="187.5" width="45" height="49.5"/>
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.69803921568627447" blue="0.74117647058823533" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="x7g-Mt-84H"/>
+                    </constraints>
+                    <state key="normal" title="地区">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="SwichBtnClickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="6gF-ei-Wj3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yb3-cz-7bh" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="66" y="187.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Z">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuK-Tj-SSr" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="108.5" y="187.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="X">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dC5-IS-OHC" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="151" y="187" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="C">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIb-cd-WNs" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="193.5" y="186.5" width="37" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="V">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIM-FM-hE1" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="235.5" y="186.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="B">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fx-id-EL7" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="278" y="187" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="N">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJG-pr-R19" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="320.5" y="187.5" width="37.5" height="49.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="M">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6z-wm-Exo" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="376" y="187.5" width="45" height="49.5"/>
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.69803921568627447" blue="0.74117647058823533" alpha="0.59920804794520544" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="keyboard_back.png">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteBtnClickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="xBm-xs-of9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jzO-m0-FiM" firstAttribute="leading" secondItem="9ol-Sk-fqC" secondAttribute="trailing" constant="5" id="02s-r2-9z0"/>
+                <constraint firstItem="uJG-pr-R19" firstAttribute="leading" secondItem="6fx-id-EL7" secondAttribute="trailing" constant="5" id="04h-Az-v2b"/>
+                <constraint firstItem="6fx-id-EL7" firstAttribute="width" secondItem="cIM-FM-hE1" secondAttribute="width" id="1Sj-Ij-gUv"/>
+                <constraint firstAttribute="trailing" secondItem="d6z-wm-Exo" secondAttribute="trailing" constant="3" id="1oz-pp-bKs"/>
+                <constraint firstItem="dq9-0V-mQa" firstAttribute="height" secondItem="f44-zZ-bpn" secondAttribute="height" id="256-fK-Ywt"/>
+                <constraint firstItem="dq9-0V-mQa" firstAttribute="leading" secondItem="f44-zZ-bpn" secondAttribute="trailing" constant="5" id="2Bf-He-9Hg"/>
+                <constraint firstItem="k3X-y5-rV5" firstAttribute="height" secondItem="XLw-l9-whR" secondAttribute="height" id="2te-0F-Hkj"/>
+                <constraint firstItem="Yb3-cz-7bh" firstAttribute="height" secondItem="PuK-Tj-SSr" secondAttribute="height" id="3Ak-os-clF"/>
+                <constraint firstItem="IuY-M0-Y87" firstAttribute="width" secondItem="EdK-Zq-Jbv" secondAttribute="width" id="3II-SC-zB1"/>
+                <constraint firstItem="k4E-6M-wWq" firstAttribute="leading" secondItem="NxT-ed-Y3E" secondAttribute="trailing" constant="5" id="3c5-Bh-iM0"/>
+                <constraint firstItem="SbP-nW-ENw" firstAttribute="width" secondItem="vS8-Zl-KWP" secondAttribute="width" id="40i-Aw-Y5T"/>
+                <constraint firstItem="jIb-cd-WNs" firstAttribute="centerX" secondItem="M52-ur-Rer" secondAttribute="centerX" id="42E-ku-7Ok"/>
+                <constraint firstItem="d6z-wm-Exo" firstAttribute="height" secondItem="uJG-pr-R19" secondAttribute="height" id="4bb-Eg-LFP"/>
+                <constraint firstItem="k3X-y5-rV5" firstAttribute="centerY" secondItem="XLw-l9-whR" secondAttribute="centerY" id="4pr-UM-uPz"/>
+                <constraint firstItem="dC5-IS-OHC" firstAttribute="centerY" secondItem="jIb-cd-WNs" secondAttribute="centerY" id="5Ao-jY-Zkt"/>
+                <constraint firstItem="Yb3-cz-7bh" firstAttribute="centerY" secondItem="PuK-Tj-SSr" secondAttribute="centerY" id="5bf-7p-Rjj"/>
+                <constraint firstItem="FDR-iw-28m" firstAttribute="leading" secondItem="SbP-nW-ENw" secondAttribute="trailing" constant="5" id="6Rh-pK-VNP"/>
+                <constraint firstItem="uJG-pr-R19" firstAttribute="height" secondItem="6fx-id-EL7" secondAttribute="height" id="6eB-V7-LPY"/>
+                <constraint firstItem="yEU-Xh-cHk" firstAttribute="top" secondItem="OtA-qF-kTV" secondAttribute="bottom" constant="11" id="6pL-d6-eIA"/>
+                <constraint firstItem="jIb-cd-WNs" firstAttribute="top" secondItem="M52-ur-Rer" secondAttribute="bottom" constant="11" id="7de-ac-57e"/>
+                <constraint firstItem="vS8-Zl-KWP" firstAttribute="leading" secondItem="GaR-qa-69D" secondAttribute="trailing" constant="5" id="7hn-I7-V1o"/>
+                <constraint firstItem="EdK-Zq-Jbv" firstAttribute="leading" secondItem="IuY-M0-Y87" secondAttribute="trailing" constant="5" id="7pF-wn-Ve2"/>
+                <constraint firstItem="omi-Gy-ed4" firstAttribute="centerY" secondItem="Yb3-cz-7bh" secondAttribute="centerY" id="8AP-Qu-xMn"/>
+                <constraint firstItem="dC5-IS-OHC" firstAttribute="height" secondItem="jIb-cd-WNs" secondAttribute="height" id="8ec-zh-sGD"/>
+                <constraint firstItem="GjQ-Oi-wEI" firstAttribute="centerY" secondItem="dq9-0V-mQa" secondAttribute="centerY" id="8ef-A2-iGi"/>
+                <constraint firstItem="yEU-Xh-cHk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="9fW-dN-Uqh"/>
+                <constraint firstItem="NxT-ed-Y3E" firstAttribute="height" secondItem="GjQ-Oi-wEI" secondAttribute="height" id="9jv-V8-Rdp"/>
+                <constraint firstItem="x5k-vh-UAe" firstAttribute="centerY" secondItem="OqW-kq-VmF" secondAttribute="centerY" id="9x7-d8-Hno"/>
+                <constraint firstItem="k4E-6M-wWq" firstAttribute="centerY" secondItem="NxT-ed-Y3E" secondAttribute="centerY" id="BBu-ol-DWW"/>
+                <constraint firstItem="9jR-Ag-1Gt" firstAttribute="height" secondItem="M52-ur-Rer" secondAttribute="height" id="BcO-bQ-rhz"/>
+                <constraint firstItem="OqW-kq-VmF" firstAttribute="height" secondItem="9jR-Ag-1Gt" secondAttribute="height" id="C0D-rE-xmq"/>
+                <constraint firstItem="XLw-l9-whR" firstAttribute="centerY" secondItem="jzO-m0-FiM" secondAttribute="centerY" id="CB2-he-dbK"/>
+                <constraint firstItem="x5k-vh-UAe" firstAttribute="leading" secondItem="OqW-kq-VmF" secondAttribute="trailing" constant="5" id="CVA-BH-DlB"/>
+                <constraint firstItem="jIb-cd-WNs" firstAttribute="leading" secondItem="dC5-IS-OHC" secondAttribute="trailing" constant="5" id="EKl-Ij-p1W"/>
+                <constraint firstItem="9jR-Ag-1Gt" firstAttribute="centerY" secondItem="M52-ur-Rer" secondAttribute="centerY" id="ER6-Oe-bq0"/>
+                <constraint firstAttribute="trailing" secondItem="VIq-v1-J1c" secondAttribute="trailing" constant="3" id="Ef9-8k-a4t"/>
+                <constraint firstItem="PuK-Tj-SSr" firstAttribute="height" secondItem="dC5-IS-OHC" secondAttribute="height" id="G0f-fH-FqM"/>
+                <constraint firstItem="dC5-IS-OHC" firstAttribute="leading" secondItem="PuK-Tj-SSr" secondAttribute="trailing" constant="5" id="GC2-gz-Xb6"/>
+                <constraint firstItem="GjQ-Oi-wEI" firstAttribute="width" secondItem="dq9-0V-mQa" secondAttribute="width" id="GCP-Fi-YeM"/>
+                <constraint firstItem="vS8-Zl-KWP" firstAttribute="width" secondItem="GaR-qa-69D" secondAttribute="width" id="GbY-Ls-LJ8"/>
+                <constraint firstItem="IuY-M0-Y87" firstAttribute="leading" secondItem="bTw-kk-9Ok" secondAttribute="trailing" constant="5" id="HSB-Nk-YnY"/>
+                <constraint firstItem="GaR-qa-69D" firstAttribute="width" secondItem="OtA-qF-kTV" secondAttribute="width" id="I6V-ZP-Xr5"/>
+                <constraint firstItem="vS8-Zl-KWP" firstAttribute="height" secondItem="GaR-qa-69D" secondAttribute="height" id="I9k-hR-DSB"/>
+                <constraint firstItem="OtA-qF-kTV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="JB4-nX-2Qm"/>
+                <constraint firstItem="d6z-wm-Exo" firstAttribute="width" secondItem="omi-Gy-ed4" secondAttribute="width" id="JIP-CS-zBY"/>
+                <constraint firstItem="OqW-kq-VmF" firstAttribute="width" secondItem="9jR-Ag-1Gt" secondAttribute="width" id="JoB-Sb-gsD"/>
+                <constraint firstItem="cqj-jN-VVm" firstAttribute="height" secondItem="k3X-y5-rV5" secondAttribute="height" id="Jwp-QT-JE1"/>
+                <constraint firstItem="Yb3-cz-7bh" firstAttribute="width" secondItem="PuK-Tj-SSr" secondAttribute="width" id="KfC-ou-2GV"/>
+                <constraint firstItem="XLw-l9-whR" firstAttribute="width" secondItem="jzO-m0-FiM" secondAttribute="width" id="Krj-tz-opT"/>
+                <constraint firstItem="jzO-m0-FiM" firstAttribute="width" secondItem="9ol-Sk-fqC" secondAttribute="width" id="KyO-rv-oZ7"/>
+                <constraint firstItem="VIq-v1-J1c" firstAttribute="leading" secondItem="RJB-YY-vaf" secondAttribute="trailing" constant="5" id="L6M-cm-jHC"/>
+                <constraint firstItem="cIM-FM-hE1" firstAttribute="height" secondItem="jIb-cd-WNs" secondAttribute="height" id="LVY-CO-Zdd"/>
+                <constraint firstItem="PuK-Tj-SSr" firstAttribute="centerY" secondItem="dC5-IS-OHC" secondAttribute="centerY" id="MI0-Pf-g1L"/>
+                <constraint firstItem="OtA-qF-kTV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="MXt-n0-ZcR"/>
+                <constraint firstItem="SbP-nW-ENw" firstAttribute="centerY" secondItem="vS8-Zl-KWP" secondAttribute="centerY" id="My4-77-OnR"/>
+                <constraint firstItem="GaR-qa-69D" firstAttribute="leading" secondItem="OtA-qF-kTV" secondAttribute="trailing" constant="5" id="NGA-7k-kDV"/>
+                <constraint firstItem="Kab-Wa-gv6" firstAttribute="width" secondItem="x5k-vh-UAe" secondAttribute="width" id="Npy-zw-lQ4"/>
+                <constraint firstItem="omi-Gy-ed4" firstAttribute="height" secondItem="Yb3-cz-7bh" secondAttribute="height" id="Nu7-6P-Ezr"/>
+                <constraint firstItem="jIb-cd-WNs" firstAttribute="height" secondItem="M52-ur-Rer" secondAttribute="height" id="OO9-vD-9fZ"/>
+                <constraint firstItem="B95-Qv-IPz" firstAttribute="height" secondItem="bTw-kk-9Ok" secondAttribute="height" id="Ont-d4-7dy"/>
+                <constraint firstItem="x5k-vh-UAe" firstAttribute="height" secondItem="OqW-kq-VmF" secondAttribute="height" id="OpB-nz-zKh"/>
+                <constraint firstItem="RcG-3x-3AQ" firstAttribute="height" secondItem="wcP-wd-kQu" secondAttribute="height" id="PCF-JS-7ny"/>
+                <constraint firstItem="M52-ur-Rer" firstAttribute="width" secondItem="yEU-Xh-cHk" secondAttribute="width" id="PMU-uD-jrn"/>
+                <constraint firstItem="M52-ur-Rer" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PqE-c4-pcH"/>
+                <constraint firstAttribute="trailing" secondItem="cqj-jN-VVm" secondAttribute="trailing" constant="3" id="Q8d-bb-ZHe"/>
+                <constraint firstItem="IuY-M0-Y87" firstAttribute="height" secondItem="EdK-Zq-Jbv" secondAttribute="height" id="Q9a-J7-Tlv"/>
+                <constraint firstItem="NxT-ed-Y3E" firstAttribute="width" secondItem="GjQ-Oi-wEI" secondAttribute="width" id="QEi-Da-ewe"/>
+                <constraint firstItem="M52-ur-Rer" firstAttribute="leading" secondItem="EdK-Zq-Jbv" secondAttribute="trailing" constant="5" id="QV4-e8-OwQ"/>
+                <constraint firstItem="RcG-3x-3AQ" firstAttribute="centerY" secondItem="wcP-wd-kQu" secondAttribute="centerY" id="SsV-93-z6b"/>
+                <constraint firstItem="SbP-nW-ENw" firstAttribute="leading" secondItem="vS8-Zl-KWP" secondAttribute="trailing" constant="5" id="T8C-nF-42l"/>
+                <constraint firstItem="FDR-iw-28m" firstAttribute="width" secondItem="SbP-nW-ENw" secondAttribute="width" id="TrZ-Ai-csH"/>
+                <constraint firstItem="cIM-FM-hE1" firstAttribute="leading" secondItem="jIb-cd-WNs" secondAttribute="trailing" constant="5" id="UUI-80-pEY"/>
+                <constraint firstItem="omi-Gy-ed4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="UgK-GA-xcJ"/>
+                <constraint firstItem="RJB-YY-vaf" firstAttribute="centerY" secondItem="k4E-6M-wWq" secondAttribute="centerY" id="UpD-Uf-Ozz"/>
+                <constraint firstItem="6fx-id-EL7" firstAttribute="height" secondItem="cIM-FM-hE1" secondAttribute="height" id="V0B-WS-WG5"/>
+                <constraint firstItem="k4E-6M-wWq" firstAttribute="width" secondItem="NxT-ed-Y3E" secondAttribute="width" id="VH9-9d-kra"/>
+                <constraint firstItem="bTw-kk-9Ok" firstAttribute="height" secondItem="IuY-M0-Y87" secondAttribute="height" id="VJD-Gc-FW8"/>
+                <constraint firstItem="RJB-YY-vaf" firstAttribute="leading" secondItem="k4E-6M-wWq" secondAttribute="trailing" constant="5" id="VQH-Le-NbR"/>
+                <constraint firstItem="jIb-cd-WNs" firstAttribute="width" secondItem="M52-ur-Rer" secondAttribute="width" id="Vse-tf-2KL"/>
+                <constraint firstItem="M52-ur-Rer" firstAttribute="height" secondItem="yEU-Xh-cHk" secondAttribute="height" id="W7N-cI-SdG"/>
+                <constraint firstItem="GjQ-Oi-wEI" firstAttribute="leading" secondItem="dq9-0V-mQa" secondAttribute="trailing" constant="5" id="W9L-QE-YoG"/>
+                <constraint firstItem="dq9-0V-mQa" firstAttribute="centerY" secondItem="f44-zZ-bpn" secondAttribute="centerY" id="WAy-Ao-D8G"/>
+                <constraint firstItem="cqj-jN-VVm" firstAttribute="width" secondItem="k3X-y5-rV5" secondAttribute="width" id="WBp-hp-Row"/>
+                <constraint firstItem="EdK-Zq-Jbv" firstAttribute="height" secondItem="M52-ur-Rer" secondAttribute="height" id="WPO-xU-fJt"/>
+                <constraint firstItem="x5k-vh-UAe" firstAttribute="width" secondItem="OqW-kq-VmF" secondAttribute="width" id="Wyc-MF-dSG"/>
+                <constraint firstItem="PuK-Tj-SSr" firstAttribute="width" secondItem="dC5-IS-OHC" secondAttribute="width" id="X1k-Ff-VqV"/>
+                <constraint firstItem="VIq-v1-J1c" firstAttribute="height" secondItem="RJB-YY-vaf" secondAttribute="height" id="X4I-cT-QOl"/>
+                <constraint firstItem="FDR-iw-28m" firstAttribute="centerY" secondItem="SbP-nW-ENw" secondAttribute="centerY" id="XbL-G0-9sg"/>
+                <constraint firstItem="OqW-kq-VmF" firstAttribute="leading" secondItem="9jR-Ag-1Gt" secondAttribute="trailing" constant="5" id="Xn6-qC-VwG"/>
+                <constraint firstItem="f44-zZ-bpn" firstAttribute="leading" secondItem="RcG-3x-3AQ" secondAttribute="trailing" constant="5" id="Y7d-RL-fIP"/>
+                <constraint firstItem="Kab-Wa-gv6" firstAttribute="leading" secondItem="x5k-vh-UAe" secondAttribute="trailing" constant="5" id="YNS-gk-8rl"/>
+                <constraint firstItem="jzO-m0-FiM" firstAttribute="height" secondItem="9ol-Sk-fqC" secondAttribute="height" id="ZFd-aG-ESj"/>
+                <constraint firstItem="uJG-pr-R19" firstAttribute="centerY" secondItem="6fx-id-EL7" secondAttribute="centerY" id="Zum-Ow-KTh"/>
+                <constraint firstItem="9ol-Sk-fqC" firstAttribute="width" secondItem="FDR-iw-28m" secondAttribute="width" id="aTn-v8-Uaa"/>
+                <constraint firstItem="yEU-Xh-cHk" firstAttribute="height" secondItem="OtA-qF-kTV" secondAttribute="height" id="adQ-ri-EdG"/>
+                <constraint firstItem="Kab-Wa-gv6" firstAttribute="height" secondItem="x5k-vh-UAe" secondAttribute="height" id="anQ-wJ-Vhp"/>
+                <constraint firstItem="cIM-FM-hE1" firstAttribute="centerY" secondItem="jIb-cd-WNs" secondAttribute="centerY" id="atB-RH-Tg7"/>
+                <constraint firstItem="cqj-jN-VVm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="bPZ-bh-VCa"/>
+                <constraint firstItem="XLw-l9-whR" firstAttribute="leading" secondItem="jzO-m0-FiM" secondAttribute="trailing" constant="5" id="beL-hz-4WD"/>
+                <constraint firstItem="wcP-wd-kQu" firstAttribute="height" secondItem="yEU-Xh-cHk" secondAttribute="height" id="bhu-ba-kod"/>
+                <constraint firstItem="VIq-v1-J1c" firstAttribute="centerY" secondItem="RJB-YY-vaf" secondAttribute="centerY" id="cAh-fo-RQ6"/>
+                <constraint firstItem="f44-zZ-bpn" firstAttribute="width" secondItem="RcG-3x-3AQ" secondAttribute="width" id="ckj-P9-mJC"/>
+                <constraint firstItem="9ol-Sk-fqC" firstAttribute="leading" secondItem="FDR-iw-28m" secondAttribute="trailing" constant="5" id="d6D-Q5-Xz6"/>
+                <constraint firstAttribute="bottom" secondItem="jIb-cd-WNs" secondAttribute="bottom" constant="7" id="dYT-fi-86w"/>
+                <constraint firstItem="9ol-Sk-fqC" firstAttribute="centerY" secondItem="FDR-iw-28m" secondAttribute="centerY" id="dcv-zE-pWw"/>
+                <constraint firstItem="B95-Qv-IPz" firstAttribute="width" secondItem="bTw-kk-9Ok" secondAttribute="width" id="gLQ-W1-Lr8"/>
+                <constraint firstItem="XLw-l9-whR" firstAttribute="height" secondItem="jzO-m0-FiM" secondAttribute="height" id="h17-QJ-xBm"/>
+                <constraint firstItem="9ol-Sk-fqC" firstAttribute="height" secondItem="FDR-iw-28m" secondAttribute="height" id="h93-gE-a3p"/>
+                <constraint firstItem="9jR-Ag-1Gt" firstAttribute="width" secondItem="M52-ur-Rer" secondAttribute="width" id="hhM-5D-Dqk"/>
+                <constraint firstItem="VIq-v1-J1c" firstAttribute="width" secondItem="RJB-YY-vaf" secondAttribute="width" id="hiG-BY-qRG"/>
+                <constraint firstItem="6fx-id-EL7" firstAttribute="leading" secondItem="cIM-FM-hE1" secondAttribute="trailing" constant="5" id="hrD-R7-uRB"/>
+                <constraint firstItem="dC5-IS-OHC" firstAttribute="width" secondItem="jIb-cd-WNs" secondAttribute="width" id="i8s-n4-4kW"/>
+                <constraint firstItem="dq9-0V-mQa" firstAttribute="width" secondItem="f44-zZ-bpn" secondAttribute="width" id="iUJ-n8-Fno"/>
+                <constraint firstItem="cqj-jN-VVm" firstAttribute="leading" secondItem="k3X-y5-rV5" secondAttribute="trailing" constant="5" id="ij0-A4-lRo"/>
+                <constraint firstItem="bTw-kk-9Ok" firstAttribute="width" secondItem="IuY-M0-Y87" secondAttribute="width" id="irL-Nt-mKo"/>
+                <constraint firstItem="EdK-Zq-Jbv" firstAttribute="centerY" secondItem="M52-ur-Rer" secondAttribute="centerY" id="jC2-TC-ESt"/>
+                <constraint firstItem="B95-Qv-IPz" firstAttribute="centerY" secondItem="bTw-kk-9Ok" secondAttribute="centerY" id="jcd-Wp-Xqr"/>
+                <constraint firstItem="RcG-3x-3AQ" firstAttribute="leading" secondItem="wcP-wd-kQu" secondAttribute="trailing" constant="5" id="kOs-9y-lvt"/>
+                <constraint firstItem="FDR-iw-28m" firstAttribute="height" secondItem="SbP-nW-ENw" secondAttribute="height" id="kTa-iX-8T0"/>
+                <constraint firstItem="bTw-kk-9Ok" firstAttribute="leading" secondItem="B95-Qv-IPz" secondAttribute="trailing" constant="5" id="kYg-r9-MXd"/>
+                <constraint firstItem="NxT-ed-Y3E" firstAttribute="centerY" secondItem="GjQ-Oi-wEI" secondAttribute="centerY" id="kfu-jS-Sca"/>
+                <constraint firstItem="wcP-wd-kQu" firstAttribute="width" secondItem="yEU-Xh-cHk" secondAttribute="width" id="lXv-hI-9lB"/>
+                <constraint firstItem="d6z-wm-Exo" firstAttribute="centerY" secondItem="uJG-pr-R19" secondAttribute="centerY" id="leP-ea-hO6"/>
+                <constraint firstItem="PuK-Tj-SSr" firstAttribute="leading" secondItem="Yb3-cz-7bh" secondAttribute="trailing" constant="5" id="loc-uc-nuz"/>
+                <constraint firstItem="wcP-wd-kQu" firstAttribute="leading" secondItem="yEU-Xh-cHk" secondAttribute="trailing" constant="5" id="mJ2-sa-bSr"/>
+                <constraint firstItem="k4E-6M-wWq" firstAttribute="height" secondItem="NxT-ed-Y3E" secondAttribute="height" id="mpF-qo-srw"/>
+                <constraint firstItem="NxT-ed-Y3E" firstAttribute="leading" secondItem="GjQ-Oi-wEI" secondAttribute="trailing" constant="5" id="n9d-87-sI9"/>
+                <constraint firstItem="IuY-M0-Y87" firstAttribute="centerY" secondItem="EdK-Zq-Jbv" secondAttribute="centerY" id="noL-c7-3mJ"/>
+                <constraint firstItem="f44-zZ-bpn" firstAttribute="height" secondItem="RcG-3x-3AQ" secondAttribute="height" id="o0q-sa-oVy"/>
+                <constraint firstItem="vS8-Zl-KWP" firstAttribute="centerY" secondItem="GaR-qa-69D" secondAttribute="centerY" id="o8I-dp-lft"/>
+                <constraint firstItem="9jR-Ag-1Gt" firstAttribute="leading" secondItem="M52-ur-Rer" secondAttribute="trailing" constant="5" id="oUY-hZ-gc7"/>
+                <constraint firstItem="uJG-pr-R19" firstAttribute="width" secondItem="6fx-id-EL7" secondAttribute="width" id="oda-oK-aiF"/>
+                <constraint firstItem="RJB-YY-vaf" firstAttribute="height" secondItem="k4E-6M-wWq" secondAttribute="height" id="ofn-RG-tTv"/>
+                <constraint firstItem="bTw-kk-9Ok" firstAttribute="centerY" secondItem="IuY-M0-Y87" secondAttribute="centerY" id="okR-Rq-PfQ"/>
+                <constraint firstItem="M52-ur-Rer" firstAttribute="top" secondItem="GjQ-Oi-wEI" secondAttribute="bottom" constant="11" id="pYc-hY-ja0"/>
+                <constraint firstItem="OqW-kq-VmF" firstAttribute="centerY" secondItem="9jR-Ag-1Gt" secondAttribute="centerY" id="pnv-KY-q03"/>
+                <constraint firstItem="RJB-YY-vaf" firstAttribute="width" secondItem="k4E-6M-wWq" secondAttribute="width" id="qt2-yk-tqJ"/>
+                <constraint firstItem="GaR-qa-69D" firstAttribute="centerY" secondItem="OtA-qF-kTV" secondAttribute="centerY" id="qvu-eT-HLL"/>
+                <constraint firstItem="GjQ-Oi-wEI" firstAttribute="height" secondItem="dq9-0V-mQa" secondAttribute="height" id="qyZ-AL-RIf"/>
+                <constraint firstItem="k3X-y5-rV5" firstAttribute="leading" secondItem="XLw-l9-whR" secondAttribute="trailing" constant="5" id="ri9-II-8ge"/>
+                <constraint firstItem="cIM-FM-hE1" firstAttribute="width" secondItem="jIb-cd-WNs" secondAttribute="width" id="rkn-aj-aG0"/>
+                <constraint firstItem="Kab-Wa-gv6" firstAttribute="centerY" secondItem="x5k-vh-UAe" secondAttribute="centerY" id="s5N-La-a2h"/>
+                <constraint firstItem="6fx-id-EL7" firstAttribute="centerY" secondItem="cIM-FM-hE1" secondAttribute="centerY" id="sLT-3G-UTt"/>
+                <constraint firstItem="wcP-wd-kQu" firstAttribute="centerY" secondItem="yEU-Xh-cHk" secondAttribute="centerY" id="sWl-Iy-cG9"/>
+                <constraint firstItem="EdK-Zq-Jbv" firstAttribute="width" secondItem="M52-ur-Rer" secondAttribute="width" id="sef-YA-lkd"/>
+                <constraint firstItem="GaR-qa-69D" firstAttribute="height" secondItem="OtA-qF-kTV" secondAttribute="height" id="sgi-z1-o4Q"/>
+                <constraint firstItem="RcG-3x-3AQ" firstAttribute="width" secondItem="wcP-wd-kQu" secondAttribute="width" id="t9c-CK-s8Q"/>
+                <constraint firstItem="k3X-y5-rV5" firstAttribute="width" secondItem="XLw-l9-whR" secondAttribute="width" id="tYj-Li-Cry"/>
+                <constraint firstItem="SbP-nW-ENw" firstAttribute="height" secondItem="vS8-Zl-KWP" secondAttribute="height" id="xsR-LO-Hza"/>
+                <constraint firstItem="f44-zZ-bpn" firstAttribute="centerY" secondItem="RcG-3x-3AQ" secondAttribute="centerY" id="xtu-BU-erd"/>
+                <constraint firstItem="jzO-m0-FiM" firstAttribute="centerY" secondItem="9ol-Sk-fqC" secondAttribute="centerY" id="zTl-WB-Zdv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="SwichBtn" destination="omi-Gy-ed4" id="l2c-Bl-roE"/>
+                <outlet property="deleteBtn" destination="d6z-wm-Exo" id="RSl-1k-tJd"/>
+                <outlet property="functionBtnConstrainW" destination="x7g-Mt-84H" id="Tlg-TP-fYW"/>
+                <outletCollection property="numberBtnArr" destination="OtA-qF-kTV" id="0Br-f3-ABb"/>
+                <outletCollection property="numberBtnArr" destination="GaR-qa-69D" id="TeI-OY-Pcu"/>
+                <outletCollection property="numberBtnArr" destination="vS8-Zl-KWP" id="fJy-uv-3uw"/>
+                <outletCollection property="numberBtnArr" destination="SbP-nW-ENw" id="sYI-tt-YPi"/>
+                <outletCollection property="numberBtnArr" destination="FDR-iw-28m" id="Msw-wr-tdJ"/>
+                <outletCollection property="numberBtnArr" destination="9ol-Sk-fqC" id="4LX-vU-8Kv"/>
+                <outletCollection property="numberBtnArr" destination="jzO-m0-FiM" id="e1J-C1-HN5"/>
+                <outletCollection property="numberBtnArr" destination="XLw-l9-whR" id="IKv-3h-8ah"/>
+                <outletCollection property="numberBtnArr" destination="k3X-y5-rV5" id="AEt-SU-KiD"/>
+                <outletCollection property="numberBtnArr" destination="cqj-jN-VVm" id="qbH-9q-Jjh"/>
+                <outletCollection property="alphebetBtnArr" destination="yEU-Xh-cHk" id="KML-o2-T1H"/>
+                <outletCollection property="alphebetBtnArr" destination="wcP-wd-kQu" id="WUL-sx-ruK"/>
+                <outletCollection property="alphebetBtnArr" destination="RcG-3x-3AQ" id="dm6-Uf-tPK"/>
+                <outletCollection property="alphebetBtnArr" destination="f44-zZ-bpn" id="2ey-O6-pfJ"/>
+                <outletCollection property="alphebetBtnArr" destination="dq9-0V-mQa" id="Jvw-ey-1eZ"/>
+                <outletCollection property="alphebetBtnArr" destination="GjQ-Oi-wEI" id="wqu-Qq-P92"/>
+                <outletCollection property="alphebetBtnArr" destination="NxT-ed-Y3E" id="TRd-al-u6Y"/>
+                <outletCollection property="alphebetBtnArr" destination="k4E-6M-wWq" id="f3g-3T-99m"/>
+                <outletCollection property="alphebetBtnArr" destination="RJB-YY-vaf" id="X9A-ym-cwi"/>
+                <outletCollection property="alphebetBtnArr" destination="VIq-v1-J1c" id="auz-WB-EWo"/>
+                <outletCollection property="alphebetBtnArr" destination="Yb3-cz-7bh" id="UKw-F2-U2A"/>
+                <outletCollection property="alphebetBtnArr" destination="PuK-Tj-SSr" id="lY5-Ap-2NK"/>
+                <outletCollection property="alphebetBtnArr" destination="dC5-IS-OHC" id="YPc-3j-cTA"/>
+                <outletCollection property="alphebetBtnArr" destination="jIb-cd-WNs" id="nfw-Tq-Xn0"/>
+                <outletCollection property="alphebetBtnArr" destination="cIM-FM-hE1" id="ZkX-LV-mOi"/>
+                <outletCollection property="alphebetBtnArr" destination="6fx-id-EL7" id="Jw6-Vt-7Wq"/>
+                <outletCollection property="alphebetBtnArr" destination="uJG-pr-R19" id="foX-Qi-645"/>
+                <outletCollection property="alphebetBtnArr" destination="B95-Qv-IPz" id="P3A-DX-D1l"/>
+                <outletCollection property="alphebetBtnArr" destination="bTw-kk-9Ok" id="RX9-kg-lXn"/>
+                <outletCollection property="alphebetBtnArr" destination="IuY-M0-Y87" id="dJy-xT-mNH"/>
+                <outletCollection property="alphebetBtnArr" destination="EdK-Zq-Jbv" id="vmo-57-yo6"/>
+                <outletCollection property="alphebetBtnArr" destination="M52-ur-Rer" id="zIW-49-pTy"/>
+                <outletCollection property="alphebetBtnArr" destination="9jR-Ag-1Gt" id="6pt-Ko-j2u"/>
+                <outletCollection property="alphebetBtnArr" destination="OqW-kq-VmF" id="Hhy-fP-4kv"/>
+                <outletCollection property="alphebetBtnArr" destination="x5k-vh-UAe" id="GHA-MO-9eU"/>
+                <outletCollection property="alphebetBtnArr" destination="Kab-Wa-gv6" id="rsh-5n-F2B"/>
+            </connections>
+            <point key="canvasLocation" x="4" y="-231.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="keyboard_back.png" width="23" height="17"/>
+    </resources>
+</document>

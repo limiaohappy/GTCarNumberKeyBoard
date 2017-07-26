@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GTCarNumFullKeyBoard">
+            <rect key="frame" x="0.0" y="0.0" width="542" height="272"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOl-xm-PZJ" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="3" y="5" width="48.5" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="京">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rd6-9B-LkI" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="56.5" y="5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="津">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0N-tu-6m1" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="110.5" y="5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="渝">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7j-9g-epL" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="164.5" y="5" width="49.5" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="苏">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zc-uF-yGQ" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="219" y="5" width="49.5" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="冀">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTU-dJ-ex9" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="273.5" y="5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="晋">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Laq-RD-X7V" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="327.5" y="5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="辽">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvA-4V-7iM" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="381.5" y="5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="浙">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLa-3P-WEl" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="435.5" y="5" width="49.5" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="黑">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Run-gD-amv" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="490" y="5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="沪">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiJ-SY-gXS" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="3" y="73" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="吉">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKF-Mh-r5M" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="56.5" y="73.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="皖">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGe-dk-WGg" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="110.5" y="73.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="闽">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ci-OH-hEj" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="165" y="73.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="赣">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wn-jw-avb" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="219.5" y="73.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="鲁">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9LK-hU-0mg" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="273" y="73.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="豫">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTT-xi-RI2" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="327.5" y="73.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="鄂">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7F-c6-Mju" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="381.5" y="73.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="琼">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTz-W7-Lg1" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="436" y="73.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="粤">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vor-1R-rtD" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="490.5" y="73.5" width="48.5" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="湘">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Axf-3U-5Hf" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="3" y="140.5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="甘">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQo-AE-N0c" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="57" y="140.5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="贵">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsH-Ws-ZQt" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="111" y="140.5" width="49.5" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="云">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPS-XM-Xuh" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="165.5" y="140.5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="陕">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmT-u3-7ce" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="219.5" y="140.5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="川">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nb3-xN-ckj" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="273.5" y="140.5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="青">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YV5-zy-Nfv" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="327.5" y="140.5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="蒙">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8co-0Y-4qY" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="381.5" y="140.5" width="49.5" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="桂">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Js4-gB-X44" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="436" y="140.5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="宁">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xH-If-OVV" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="490" y="140.5" width="49" height="57"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="新">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69Y-Ye-jDI" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="3" y="208.5" width="40" height="56.5"/>
+                    <color key="backgroundColor" red="0.66666666669999997" green="0.69803921570000005" blue="0.74117647060000003" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="ksO-aB-23n"/>
+                    </constraints>
+                    <state key="normal" title="ABC">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="SwichBtnClickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="8fs-S6-7Nj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YZ-Q8-Nct" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="499" y="208.5" width="40" height="56.5"/>
+                    <color key="backgroundColor" red="0.66666666669999997" green="0.69803921570000005" blue="0.74117647060000003" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="keyboard_back.png">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteBtnClickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vqi-wP-ecW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Z9-a4-PZ0" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="86" y="208.5" width="48.5" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="藏">
+                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXf-6X-UfF" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="139.5" y="208.5" width="48.5" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="使">
+                        <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPw-qJ-G6j" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="193" y="208.5" width="49" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="领">
+                        <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lan-BO-NKt" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="247" y="208.5" width="48.5" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="警">
+                        <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hke-0S-8zd" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="300.5" y="208.5" width="48.5" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="学">
+                        <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOq-ec-Bxt" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="354" y="208.5" width="48.5" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="港">
+                        <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bd-p8-tjg" customClass="HJFCustomKeyboardButton">
+                    <rect key="frame" x="407.5" y="208.5" width="48.5" height="56.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="澳">
+                        <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration">
+                <accessibilityTraits key="traits" button="YES"/>
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <constraints>
+                <constraint firstItem="pPS-XM-Xuh" firstAttribute="width" secondItem="gsH-Ws-ZQt" secondAttribute="width" id="0Xd-Zb-ty9"/>
+                <constraint firstItem="YV5-zy-Nfv" firstAttribute="height" secondItem="Nb3-xN-ckj" secondAttribute="height" id="0YY-GH-QJL"/>
+                <constraint firstAttribute="bottom" secondItem="7YZ-Q8-Nct" secondAttribute="bottom" constant="7" id="0bo-8c-Dw1"/>
+                <constraint firstItem="rvA-4V-7iM" firstAttribute="width" secondItem="Laq-RD-X7V" secondAttribute="width" id="1Bd-gH-kPG"/>
+                <constraint firstItem="fiJ-SY-gXS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="2IK-sY-1pg"/>
+                <constraint firstItem="7YZ-Q8-Nct" firstAttribute="width" secondItem="69Y-Ye-jDI" secondAttribute="width" id="2nz-VP-CyC"/>
+                <constraint firstItem="Nb3-xN-ckj" firstAttribute="height" secondItem="XmT-u3-7ce" secondAttribute="height" id="3DX-4E-MNY"/>
+                <constraint firstItem="XmT-u3-7ce" firstAttribute="centerY" secondItem="pPS-XM-Xuh" secondAttribute="centerY" id="3nb-h7-m8H"/>
+                <constraint firstItem="sQo-AE-N0c" firstAttribute="height" secondItem="Axf-3U-5Hf" secondAttribute="height" id="3oy-hi-cGM"/>
+                <constraint firstItem="XOq-ec-Bxt" firstAttribute="leading" secondItem="Hke-0S-8zd" secondAttribute="trailing" constant="5" id="4RA-Ec-2TY"/>
+                <constraint firstItem="9zc-uF-yGQ" firstAttribute="leading" secondItem="u7j-9g-epL" secondAttribute="trailing" constant="5" id="4WX-ep-tmO"/>
+                <constraint firstItem="fiJ-SY-gXS" firstAttribute="height" secondItem="VOl-xm-PZJ" secondAttribute="height" id="4fR-4s-rfU"/>
+                <constraint firstItem="WTU-dJ-ex9" firstAttribute="centerY" secondItem="9zc-uF-yGQ" secondAttribute="centerY" id="5SN-7K-2Rr"/>
+                <constraint firstItem="Vor-1R-rtD" firstAttribute="centerX" secondItem="Run-gD-amv" secondAttribute="centerX" id="6CZ-KO-Cby"/>
+                <constraint firstItem="Js4-gB-X44" firstAttribute="width" secondItem="8co-0Y-4qY" secondAttribute="width" id="6bj-oP-zO2"/>
+                <constraint firstItem="BGe-dk-WGg" firstAttribute="height" secondItem="xKF-Mh-r5M" secondAttribute="height" id="6zr-2H-B8G"/>
+                <constraint firstItem="fPw-qJ-G6j" firstAttribute="height" secondItem="Lan-BO-NKt" secondAttribute="height" id="7cQ-lY-xtp"/>
+                <constraint firstItem="gsH-Ws-ZQt" firstAttribute="centerY" secondItem="sQo-AE-N0c" secondAttribute="centerY" id="8bm-j2-kwr"/>
+                <constraint firstItem="fiJ-SY-gXS" firstAttribute="top" secondItem="VOl-xm-PZJ" secondAttribute="bottom" constant="11" id="9Uk-gO-gzG"/>
+                <constraint firstItem="NLa-3P-WEl" firstAttribute="width" secondItem="rvA-4V-7iM" secondAttribute="width" id="A4X-br-m3G"/>
+                <constraint firstItem="Axf-3U-5Hf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="A7y-K1-ojb"/>
+                <constraint firstItem="VOl-xm-PZJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="AL6-AJ-WA0"/>
+                <constraint firstItem="7Bd-p8-tjg" firstAttribute="centerY" secondItem="XOq-ec-Bxt" secondAttribute="centerY" id="Avr-x0-uWU"/>
+                <constraint firstItem="BGe-dk-WGg" firstAttribute="centerX" secondItem="F0N-tu-6m1" secondAttribute="centerX" id="Btt-R4-zWM"/>
+                <constraint firstItem="rd6-9B-LkI" firstAttribute="width" secondItem="VOl-xm-PZJ" secondAttribute="width" id="Bz7-xL-yri"/>
+                <constraint firstItem="xKF-Mh-r5M" firstAttribute="height" secondItem="fiJ-SY-gXS" secondAttribute="height" id="Bzg-Rh-S6j"/>
+                <constraint firstItem="Run-gD-amv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="C2o-Lp-KX8"/>
+                <constraint firstItem="XmT-u3-7ce" firstAttribute="leading" secondItem="pPS-XM-Xuh" secondAttribute="trailing" constant="5" id="CQI-5Y-ymj"/>
+                <constraint firstItem="9LK-hU-0mg" firstAttribute="width" secondItem="9wn-jw-avb" secondAttribute="width" id="CRD-YU-Q98"/>
+                <constraint firstItem="WTU-dJ-ex9" firstAttribute="height" secondItem="9zc-uF-yGQ" secondAttribute="height" id="CdQ-t0-38U"/>
+                <constraint firstItem="Hke-0S-8zd" firstAttribute="leading" secondItem="Lan-BO-NKt" secondAttribute="trailing" constant="5" id="DUM-Q9-fHw"/>
+                <constraint firstItem="Hke-0S-8zd" firstAttribute="height" secondItem="Lan-BO-NKt" secondAttribute="height" id="EgX-BK-czf"/>
+                <constraint firstItem="XOq-ec-Bxt" firstAttribute="height" secondItem="Hke-0S-8zd" secondAttribute="height" id="EkQ-c0-6d2"/>
+                <constraint firstItem="Lan-BO-NKt" firstAttribute="centerY" secondItem="69Y-Ye-jDI" secondAttribute="centerY" id="FSs-gJ-Sf8"/>
+                <constraint firstItem="9wn-jw-avb" firstAttribute="width" secondItem="5ci-OH-hEj" secondAttribute="width" id="FdJ-zG-o2d"/>
+                <constraint firstItem="9wn-jw-avb" firstAttribute="height" secondItem="5ci-OH-hEj" secondAttribute="height" id="G9W-EG-ypp"/>
+                <constraint firstItem="69Y-Ye-jDI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="GMV-xH-rgf"/>
+                <constraint firstItem="0Z9-a4-PZ0" firstAttribute="height" secondItem="AXf-6X-UfF" secondAttribute="height" id="GUV-mp-3dP"/>
+                <constraint firstItem="BGe-dk-WGg" firstAttribute="centerY" secondItem="fiJ-SY-gXS" secondAttribute="centerY" id="Gaf-sa-TrT"/>
+                <constraint firstItem="69Y-Ye-jDI" firstAttribute="top" secondItem="Axf-3U-5Hf" secondAttribute="bottom" constant="11" id="Gm7-Cm-Zjo"/>
+                <constraint firstItem="rd6-9B-LkI" firstAttribute="height" secondItem="VOl-xm-PZJ" secondAttribute="height" id="GwO-XW-CNj"/>
+                <constraint firstItem="YV5-zy-Nfv" firstAttribute="width" secondItem="Nb3-xN-ckj" secondAttribute="width" id="Gxa-Cn-AZi"/>
+                <constraint firstItem="gsH-Ws-ZQt" firstAttribute="height" secondItem="sQo-AE-N0c" secondAttribute="height" id="HIT-nB-zeX"/>
+                <constraint firstItem="Js4-gB-X44" firstAttribute="leading" secondItem="8co-0Y-4qY" secondAttribute="trailing" constant="5" id="Hcr-FQ-hHC"/>
+                <constraint firstItem="dTT-xi-RI2" firstAttribute="centerY" secondItem="9LK-hU-0mg" secondAttribute="centerY" id="Hye-6N-o8g"/>
+                <constraint firstItem="p7F-c6-Mju" firstAttribute="centerX" secondItem="rvA-4V-7iM" secondAttribute="centerX" id="IXd-Fq-WxC"/>
+                <constraint firstItem="sQo-AE-N0c" firstAttribute="leading" secondItem="Axf-3U-5Hf" secondAttribute="trailing" constant="5" id="IqM-S6-NIu"/>
+                <constraint firstItem="pPS-XM-Xuh" firstAttribute="centerY" secondItem="gsH-Ws-ZQt" secondAttribute="centerY" id="Izk-Ff-Gs3"/>
+                <constraint firstItem="XOq-ec-Bxt" firstAttribute="centerY" secondItem="Hke-0S-8zd" secondAttribute="centerY" id="KBc-zO-gYL"/>
+                <constraint firstAttribute="trailing" secondItem="1xH-If-OVV" secondAttribute="trailing" constant="3" id="KUm-vY-hn2"/>
+                <constraint firstItem="BGe-dk-WGg" firstAttribute="width" secondItem="xKF-Mh-r5M" secondAttribute="width" id="KiP-Sv-iRF"/>
+                <constraint firstItem="1xH-If-OVV" firstAttribute="height" secondItem="Js4-gB-X44" secondAttribute="height" id="Knh-YZ-t68"/>
+                <constraint firstItem="XmT-u3-7ce" firstAttribute="width" secondItem="pPS-XM-Xuh" secondAttribute="width" id="Kzw-hu-YOw"/>
+                <constraint firstItem="Js4-gB-X44" firstAttribute="centerY" secondItem="8co-0Y-4qY" secondAttribute="centerY" id="Lxa-hp-rfB"/>
+                <constraint firstItem="Run-gD-amv" firstAttribute="leading" secondItem="NLa-3P-WEl" secondAttribute="trailing" constant="5" id="MDu-5s-ZzF"/>
+                <constraint firstItem="Nb3-xN-ckj" firstAttribute="leading" secondItem="XmT-u3-7ce" secondAttribute="trailing" constant="5" id="Mua-VM-T9Z"/>
+                <constraint firstItem="FTz-W7-Lg1" firstAttribute="centerX" secondItem="NLa-3P-WEl" secondAttribute="centerX" id="Nnn-DM-1nk"/>
+                <constraint firstItem="FTz-W7-Lg1" firstAttribute="width" secondItem="9wn-jw-avb" secondAttribute="width" id="OCm-Pj-vWF"/>
+                <constraint firstAttribute="trailing" secondItem="7YZ-Q8-Nct" secondAttribute="trailing" constant="3" id="Oal-yw-mDa"/>
+                <constraint firstItem="F0N-tu-6m1" firstAttribute="height" secondItem="rd6-9B-LkI" secondAttribute="height" id="P0X-Qf-Ml3"/>
+                <constraint firstItem="NLa-3P-WEl" firstAttribute="centerY" secondItem="rvA-4V-7iM" secondAttribute="centerY" id="PBi-wZ-6gr"/>
+                <constraint firstItem="8co-0Y-4qY" firstAttribute="width" secondItem="YV5-zy-Nfv" secondAttribute="width" id="Q6c-hH-4cK"/>
+                <constraint firstItem="Laq-RD-X7V" firstAttribute="leading" secondItem="WTU-dJ-ex9" secondAttribute="trailing" constant="5" id="Q8k-y3-TC5"/>
+                <constraint firstItem="F0N-tu-6m1" firstAttribute="leading" secondItem="rd6-9B-LkI" secondAttribute="trailing" constant="5" id="QNJ-g7-grj"/>
+                <constraint firstItem="9wn-jw-avb" firstAttribute="centerY" secondItem="5ci-OH-hEj" secondAttribute="centerY" id="QS5-LI-Mhq"/>
+                <constraint firstItem="Hke-0S-8zd" firstAttribute="centerY" secondItem="Lan-BO-NKt" secondAttribute="centerY" id="QVN-Ze-BAg"/>
+                <constraint firstItem="7YZ-Q8-Nct" firstAttribute="height" secondItem="69Y-Ye-jDI" secondAttribute="height" id="QmO-eb-vu6"/>
+                <constraint firstItem="Nb3-xN-ckj" firstAttribute="centerY" secondItem="XmT-u3-7ce" secondAttribute="centerY" id="RlW-DJ-LZj"/>
+                <constraint firstItem="FTz-W7-Lg1" firstAttribute="height" secondItem="9wn-jw-avb" secondAttribute="height" id="RwI-lW-FrV"/>
+                <constraint firstItem="FTz-W7-Lg1" firstAttribute="centerY" secondItem="p7F-c6-Mju" secondAttribute="centerY" id="S4S-GX-jG5"/>
+                <constraint firstItem="AXf-6X-UfF" firstAttribute="centerY" secondItem="fPw-qJ-G6j" secondAttribute="centerY" id="Sak-d4-1DH"/>
+                <constraint firstItem="FTz-W7-Lg1" firstAttribute="width" secondItem="p7F-c6-Mju" secondAttribute="width" id="T5o-8A-TVX"/>
+                <constraint firstAttribute="trailing" secondItem="Run-gD-amv" secondAttribute="trailing" constant="3" id="TMK-5D-cwJ"/>
+                <constraint firstItem="xKF-Mh-r5M" firstAttribute="width" secondItem="fiJ-SY-gXS" secondAttribute="width" id="TsF-nL-th6"/>
+                <constraint firstItem="7Bd-p8-tjg" firstAttribute="leading" secondItem="XOq-ec-Bxt" secondAttribute="trailing" constant="5" id="Tun-RB-wfy"/>
+                <constraint firstItem="p7F-c6-Mju" firstAttribute="centerY" secondItem="dTT-xi-RI2" secondAttribute="centerY" id="V8X-sE-0b2"/>
+                <constraint firstItem="XmT-u3-7ce" firstAttribute="height" secondItem="pPS-XM-Xuh" secondAttribute="height" id="VXX-UD-hKJ"/>
+                <constraint firstItem="7Bd-p8-tjg" firstAttribute="height" secondItem="XOq-ec-Bxt" secondAttribute="height" id="VkW-xj-HVm"/>
+                <constraint firstItem="NLa-3P-WEl" firstAttribute="leading" secondItem="rvA-4V-7iM" secondAttribute="trailing" constant="5" id="Vri-ae-idi"/>
+                <constraint firstItem="Run-gD-amv" firstAttribute="centerY" secondItem="NLa-3P-WEl" secondAttribute="centerY" id="XpN-me-Ygh"/>
+                <constraint firstItem="69Y-Ye-jDI" firstAttribute="height" secondItem="VOl-xm-PZJ" secondAttribute="height" id="YNk-WD-eT5"/>
+                <constraint firstItem="VOl-xm-PZJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="Ym7-7Z-bMh"/>
+                <constraint firstItem="Lan-BO-NKt" firstAttribute="leading" secondItem="fPw-qJ-G6j" secondAttribute="trailing" constant="5" id="Yzv-aK-vIU"/>
+                <constraint firstItem="pPS-XM-Xuh" firstAttribute="leading" secondItem="gsH-Ws-ZQt" secondAttribute="trailing" constant="5" id="ZS0-1i-ixP"/>
+                <constraint firstItem="F0N-tu-6m1" firstAttribute="centerY" secondItem="rd6-9B-LkI" secondAttribute="centerY" id="ZUP-OB-Rff"/>
+                <constraint firstItem="NLa-3P-WEl" firstAttribute="height" secondItem="rvA-4V-7iM" secondAttribute="height" id="aCF-SP-JYq"/>
+                <constraint firstItem="u7j-9g-epL" firstAttribute="centerY" secondItem="F0N-tu-6m1" secondAttribute="centerY" id="aEh-wL-Oa9"/>
+                <constraint firstItem="1xH-If-OVV" firstAttribute="leading" secondItem="Js4-gB-X44" secondAttribute="trailing" constant="5" id="aLh-g9-TBX"/>
+                <constraint firstItem="1xH-If-OVV" firstAttribute="centerY" secondItem="Js4-gB-X44" secondAttribute="centerY" id="b2x-M2-d63"/>
+                <constraint firstItem="YV5-zy-Nfv" firstAttribute="leading" secondItem="Nb3-xN-ckj" secondAttribute="trailing" constant="5" id="bse-jV-1k8"/>
+                <constraint firstItem="Hke-0S-8zd" firstAttribute="width" secondItem="Lan-BO-NKt" secondAttribute="width" id="btI-6U-YHa"/>
+                <constraint firstItem="AXf-6X-UfF" firstAttribute="width" secondItem="fPw-qJ-G6j" secondAttribute="width" id="cb4-jc-60r"/>
+                <constraint firstItem="0Z9-a4-PZ0" firstAttribute="width" secondItem="AXf-6X-UfF" secondAttribute="width" id="dte-th-dLj"/>
+                <constraint firstItem="F0N-tu-6m1" firstAttribute="width" secondItem="rd6-9B-LkI" secondAttribute="width" id="eD2-VG-pMt"/>
+                <constraint firstItem="rvA-4V-7iM" firstAttribute="leading" secondItem="Laq-RD-X7V" secondAttribute="trailing" constant="5" id="eSg-xa-yDc"/>
+                <constraint firstItem="9zc-uF-yGQ" firstAttribute="height" secondItem="u7j-9g-epL" secondAttribute="height" id="egD-63-y5l"/>
+                <constraint firstItem="fPw-qJ-G6j" firstAttribute="leading" secondItem="AXf-6X-UfF" secondAttribute="trailing" constant="5" id="ekk-ZA-p3Y"/>
+                <constraint firstItem="5ci-OH-hEj" firstAttribute="height" secondItem="BGe-dk-WGg" secondAttribute="height" id="eq1-ys-f3a"/>
+                <constraint firstItem="rvA-4V-7iM" firstAttribute="centerY" secondItem="Laq-RD-X7V" secondAttribute="centerY" id="esr-Tp-2hb"/>
+                <constraint firstItem="fPw-qJ-G6j" firstAttribute="centerY" secondItem="Lan-BO-NKt" secondAttribute="centerY" id="ewq-Kx-i0P"/>
+                <constraint firstItem="Lan-BO-NKt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fHP-Re-2h4"/>
+                <constraint firstItem="8co-0Y-4qY" firstAttribute="height" secondItem="YV5-zy-Nfv" secondAttribute="height" id="fIx-Bd-eUO"/>
+                <constraint firstItem="u7j-9g-epL" firstAttribute="height" secondItem="F0N-tu-6m1" secondAttribute="height" id="fSV-oL-59f"/>
+                <constraint firstItem="YV5-zy-Nfv" firstAttribute="centerY" secondItem="Nb3-xN-ckj" secondAttribute="centerY" id="fh9-AK-Oa1"/>
+                <constraint firstItem="Laq-RD-X7V" firstAttribute="centerY" secondItem="WTU-dJ-ex9" secondAttribute="centerY" id="g7x-ab-QZn"/>
+                <constraint firstItem="XOq-ec-Bxt" firstAttribute="width" secondItem="Hke-0S-8zd" secondAttribute="width" id="gLi-DY-NxJ"/>
+                <constraint firstItem="sQo-AE-N0c" firstAttribute="width" secondItem="Axf-3U-5Hf" secondAttribute="width" id="gTr-aQ-3Ya"/>
+                <constraint firstItem="1xH-If-OVV" firstAttribute="width" secondItem="Js4-gB-X44" secondAttribute="width" id="gh1-JB-7Sz"/>
+                <constraint firstItem="Js4-gB-X44" firstAttribute="height" secondItem="8co-0Y-4qY" secondAttribute="height" id="hA6-hv-VF4"/>
+                <constraint firstItem="dTT-xi-RI2" firstAttribute="width" secondItem="9LK-hU-0mg" secondAttribute="width" id="hWg-MZ-VhY"/>
+                <constraint firstItem="Vor-1R-rtD" firstAttribute="width" secondItem="VOl-xm-PZJ" secondAttribute="width" id="hpm-aJ-JJ6"/>
+                <constraint firstItem="rd6-9B-LkI" firstAttribute="leading" secondItem="VOl-xm-PZJ" secondAttribute="trailing" constant="5" id="hxc-Ww-E2M"/>
+                <constraint firstItem="0Z9-a4-PZ0" firstAttribute="centerY" secondItem="AXf-6X-UfF" secondAttribute="centerY" id="i9X-oy-60G"/>
+                <constraint firstItem="Axf-3U-5Hf" firstAttribute="top" secondItem="fiJ-SY-gXS" secondAttribute="bottom" constant="11" id="iWF-4L-HBn"/>
+                <constraint firstItem="gsH-Ws-ZQt" firstAttribute="leading" secondItem="sQo-AE-N0c" secondAttribute="trailing" constant="5" id="j5x-lG-XQr"/>
+                <constraint firstItem="rvA-4V-7iM" firstAttribute="height" secondItem="Laq-RD-X7V" secondAttribute="height" id="jHn-0b-zQM"/>
+                <constraint firstItem="Nb3-xN-ckj" firstAttribute="width" secondItem="XmT-u3-7ce" secondAttribute="width" id="luh-fW-QlE"/>
+                <constraint firstItem="Laq-RD-X7V" firstAttribute="height" secondItem="WTU-dJ-ex9" secondAttribute="height" id="mlj-f9-BkW"/>
+                <constraint firstItem="9LK-hU-0mg" firstAttribute="centerY" secondItem="9wn-jw-avb" secondAttribute="centerY" id="p5F-eq-Qh5"/>
+                <constraint firstItem="Axf-3U-5Hf" firstAttribute="height" secondItem="VOl-xm-PZJ" secondAttribute="height" id="p75-wJ-ne8"/>
+                <constraint firstItem="9LK-hU-0mg" firstAttribute="height" secondItem="9wn-jw-avb" secondAttribute="height" id="pZp-Pf-YCV"/>
+                <constraint firstItem="Vor-1R-rtD" firstAttribute="centerY" secondItem="FTz-W7-Lg1" secondAttribute="centerY" id="poR-E2-Cdb"/>
+                <constraint firstAttribute="bottom" secondItem="69Y-Ye-jDI" secondAttribute="bottom" constant="7" id="qKp-fz-PNs"/>
+                <constraint firstItem="xKF-Mh-r5M" firstAttribute="centerX" secondItem="rd6-9B-LkI" secondAttribute="centerX" id="qvO-bm-o82"/>
+                <constraint firstItem="FTz-W7-Lg1" firstAttribute="width" secondItem="Run-gD-amv" secondAttribute="width" id="r1r-Ed-0Uq"/>
+                <constraint firstItem="8co-0Y-4qY" firstAttribute="centerY" secondItem="YV5-zy-Nfv" secondAttribute="centerY" id="r3w-Q7-ysq"/>
+                <constraint firstItem="pPS-XM-Xuh" firstAttribute="height" secondItem="gsH-Ws-ZQt" secondAttribute="height" id="r5n-Mn-B3o"/>
+                <constraint firstItem="Run-gD-amv" firstAttribute="width" secondItem="NLa-3P-WEl" secondAttribute="width" id="rKQ-89-1cW"/>
+                <constraint firstItem="5ci-OH-hEj" firstAttribute="centerX" secondItem="u7j-9g-epL" secondAttribute="centerX" id="ra0-cw-FQv"/>
+                <constraint firstItem="dTT-xi-RI2" firstAttribute="height" secondItem="9LK-hU-0mg" secondAttribute="height" id="ruX-tb-esX"/>
+                <constraint firstItem="Lan-BO-NKt" firstAttribute="width" secondItem="VOl-xm-PZJ" secondAttribute="width" id="s1D-S9-h7v"/>
+                <constraint firstItem="p7F-c6-Mju" firstAttribute="width" secondItem="dTT-xi-RI2" secondAttribute="width" id="s2w-eN-Smf"/>
+                <constraint firstItem="p7F-c6-Mju" firstAttribute="height" secondItem="dTT-xi-RI2" secondAttribute="height" id="sOU-hv-32e"/>
+                <constraint firstItem="9wn-jw-avb" firstAttribute="centerX" secondItem="9zc-uF-yGQ" secondAttribute="centerX" id="siL-je-nTh"/>
+                <constraint firstItem="u7j-9g-epL" firstAttribute="width" secondItem="F0N-tu-6m1" secondAttribute="width" id="skY-RM-z6p"/>
+                <constraint firstItem="Vor-1R-rtD" firstAttribute="height" secondItem="VOl-xm-PZJ" secondAttribute="height" id="st1-75-tsR"/>
+                <constraint firstItem="9zc-uF-yGQ" firstAttribute="centerY" secondItem="u7j-9g-epL" secondAttribute="centerY" id="swz-IC-jDW"/>
+                <constraint firstItem="u7j-9g-epL" firstAttribute="leading" secondItem="F0N-tu-6m1" secondAttribute="trailing" constant="5" id="t77-48-PY4"/>
+                <constraint firstItem="sQo-AE-N0c" firstAttribute="centerY" secondItem="Axf-3U-5Hf" secondAttribute="centerY" id="t8p-Xf-fmF"/>
+                <constraint firstItem="8co-0Y-4qY" firstAttribute="leading" secondItem="YV5-zy-Nfv" secondAttribute="trailing" constant="5" id="tAg-w2-jDG"/>
+                <constraint firstItem="7Bd-p8-tjg" firstAttribute="width" secondItem="Hke-0S-8zd" secondAttribute="width" id="u1V-2r-Yvl"/>
+                <constraint firstItem="Laq-RD-X7V" firstAttribute="width" secondItem="WTU-dJ-ex9" secondAttribute="width" id="uSi-DJ-q5t"/>
+                <constraint firstItem="9LK-hU-0mg" firstAttribute="centerX" secondItem="WTU-dJ-ex9" secondAttribute="centerX" id="uyf-vA-wwn"/>
+                <constraint firstItem="AXf-6X-UfF" firstAttribute="leading" secondItem="0Z9-a4-PZ0" secondAttribute="trailing" constant="5" id="vOo-ir-adp"/>
+                <constraint firstItem="FTz-W7-Lg1" firstAttribute="height" secondItem="p7F-c6-Mju" secondAttribute="height" id="wJB-P6-ekc"/>
+                <constraint firstItem="Lan-BO-NKt" firstAttribute="height" secondItem="69Y-Ye-jDI" secondAttribute="height" id="wdx-XO-vX1"/>
+                <constraint firstItem="gsH-Ws-ZQt" firstAttribute="width" secondItem="sQo-AE-N0c" secondAttribute="width" id="x8Z-aG-fUX"/>
+                <constraint firstItem="fPw-qJ-G6j" firstAttribute="width" secondItem="Lan-BO-NKt" secondAttribute="width" id="xBc-Zd-Hke"/>
+                <constraint firstItem="WTU-dJ-ex9" firstAttribute="width" secondItem="9zc-uF-yGQ" secondAttribute="width" id="xVl-Dn-E69"/>
+                <constraint firstItem="AXf-6X-UfF" firstAttribute="height" secondItem="fPw-qJ-G6j" secondAttribute="height" id="y0k-hy-P9c"/>
+                <constraint firstItem="9zc-uF-yGQ" firstAttribute="width" secondItem="u7j-9g-epL" secondAttribute="width" id="y0p-sL-Cav"/>
+                <constraint firstItem="5ci-OH-hEj" firstAttribute="width" secondItem="BGe-dk-WGg" secondAttribute="width" id="yLx-zO-nyu"/>
+                <constraint firstItem="5ci-OH-hEj" firstAttribute="centerY" secondItem="fiJ-SY-gXS" secondAttribute="centerY" id="yZq-P9-xDj"/>
+                <constraint firstItem="rd6-9B-LkI" firstAttribute="centerY" secondItem="VOl-xm-PZJ" secondAttribute="centerY" id="yek-OH-rd0"/>
+                <constraint firstItem="xKF-Mh-r5M" firstAttribute="centerY" secondItem="fiJ-SY-gXS" secondAttribute="centerY" id="zIB-k1-OPl"/>
+                <constraint firstItem="WTU-dJ-ex9" firstAttribute="leading" secondItem="9zc-uF-yGQ" secondAttribute="trailing" constant="5" id="zLe-0i-95l"/>
+                <constraint firstItem="dTT-xi-RI2" firstAttribute="centerX" secondItem="Laq-RD-X7V" secondAttribute="centerX" id="zwm-5H-B4b"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="SwichBtn" destination="69Y-Ye-jDI" id="QlD-hE-EXh"/>
+                <outlet property="deleteBtn" destination="7YZ-Q8-Nct" id="ihF-b1-5Sy"/>
+                <outlet property="functionBtnConstrainW" destination="ksO-aB-23n" id="V1e-ah-2E8"/>
+                <outletCollection property="itemBtnArr" destination="VOl-xm-PZJ" id="SxM-Kh-Tta"/>
+                <outletCollection property="itemBtnArr" destination="rd6-9B-LkI" id="6NP-tl-nTu"/>
+                <outletCollection property="itemBtnArr" destination="F0N-tu-6m1" id="iwL-2A-HUq"/>
+                <outletCollection property="itemBtnArr" destination="u7j-9g-epL" id="R3u-qS-AMC"/>
+                <outletCollection property="itemBtnArr" destination="9zc-uF-yGQ" id="bJS-Cp-jYY"/>
+                <outletCollection property="itemBtnArr" destination="WTU-dJ-ex9" id="m1L-ea-qNV"/>
+                <outletCollection property="itemBtnArr" destination="Laq-RD-X7V" id="0Sr-7K-YMt"/>
+                <outletCollection property="itemBtnArr" destination="rvA-4V-7iM" id="O9E-qS-eHv"/>
+                <outletCollection property="itemBtnArr" destination="NLa-3P-WEl" id="ibK-0m-Btu"/>
+                <outletCollection property="itemBtnArr" destination="Run-gD-amv" id="Qw4-XG-rbc"/>
+                <outletCollection property="itemBtnArr" destination="fiJ-SY-gXS" id="3Ra-Qs-7Gk"/>
+                <outletCollection property="itemBtnArr" destination="xKF-Mh-r5M" id="wkp-BF-Kj6"/>
+                <outletCollection property="itemBtnArr" destination="BGe-dk-WGg" id="vIZ-tT-Env"/>
+                <outletCollection property="itemBtnArr" destination="5ci-OH-hEj" id="sji-to-b1X"/>
+                <outletCollection property="itemBtnArr" destination="9wn-jw-avb" id="IvL-am-VEV"/>
+                <outletCollection property="itemBtnArr" destination="9LK-hU-0mg" id="1aS-Yn-GMJ"/>
+                <outletCollection property="itemBtnArr" destination="dTT-xi-RI2" id="qfR-wn-LzE"/>
+                <outletCollection property="itemBtnArr" destination="p7F-c6-Mju" id="m4K-3h-rWF"/>
+                <outletCollection property="itemBtnArr" destination="FTz-W7-Lg1" id="ZIv-i9-P9V"/>
+                <outletCollection property="itemBtnArr" destination="Vor-1R-rtD" id="y48-ZM-2YR"/>
+                <outletCollection property="itemBtnArr" destination="Axf-3U-5Hf" id="Ahh-s0-41z"/>
+                <outletCollection property="itemBtnArr" destination="sQo-AE-N0c" id="bVr-hG-fFp"/>
+                <outletCollection property="itemBtnArr" destination="gsH-Ws-ZQt" id="Uv8-Nn-Y5X"/>
+                <outletCollection property="itemBtnArr" destination="pPS-XM-Xuh" id="vA5-1b-Mi9"/>
+                <outletCollection property="itemBtnArr" destination="XmT-u3-7ce" id="ARI-hR-1BL"/>
+                <outletCollection property="itemBtnArr" destination="Nb3-xN-ckj" id="czK-1R-x4x"/>
+                <outletCollection property="itemBtnArr" destination="YV5-zy-Nfv" id="8nv-B5-Waw"/>
+                <outletCollection property="itemBtnArr" destination="8co-0Y-4qY" id="7Z5-TL-txL"/>
+                <outletCollection property="itemBtnArr" destination="Js4-gB-X44" id="DXG-Yc-cs2"/>
+                <outletCollection property="itemBtnArr" destination="1xH-If-OVV" id="XpO-80-nKl"/>
+                <outletCollection property="itemBtnArr" destination="0Z9-a4-PZ0" id="gDG-4Z-fg4"/>
+                <outletCollection property="itemBtnArr" destination="AXf-6X-UfF" id="Pid-yn-lSG"/>
+                <outletCollection property="itemBtnArr" destination="fPw-qJ-G6j" id="fkj-T6-NO9"/>
+                <outletCollection property="itemBtnArr" destination="Lan-BO-NKt" id="viT-qi-ej8"/>
+                <outletCollection property="itemBtnArr" destination="Hke-0S-8zd" id="oZa-0d-Jl1"/>
+                <outletCollection property="itemBtnArr" destination="XOq-ec-Bxt" id="JMe-gM-IOm"/>
+                <outletCollection property="itemBtnArr" destination="7Bd-p8-tjg" id="6sj-a8-OTw"/>
+            </connections>
+            <point key="canvasLocation" x="108" y="-145"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="keyboard_back.png" width="23" height="17"/>
+    </resources>
+</document>

@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "GTNumberAndAlphebetKeyboard.h"
+#import "GTCarNumFullKeyBoard.h"
+@interface ViewController ()<GTNumberAndAlphebetKeyboardDelegate,GTCarNumFullKeyBoardDelegate>
 
-@interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -16,10 +19,68 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    GTCarNumFullKeyBoard *board2 = [GTCarNumFullKeyBoard keyboard];
+    board2.needKeyboardSoundEffect=  YES;
+    board2.delegate  = self;
+    self.textField.inputView =board2;
+
+    
+    
+        // Do any additional setup after loading the view, typically from a nib.
 }
 
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    [self.textField resignFirstResponder];
+}
+
+
+#pragma mark - GTCarNumFullKeyBoardDelegate 地区键盘
+-(void)GTCarNumFullKeyBoard:(GTCarNumFullKeyBoard *)keyboard deleteBtnClickAction:(HJFCustomKeyboardButton *)sender{
+    [self.textField deleteBackward];
+    
+}
+
+-(void)GTCarNumFullKeyBoard:(GTCarNumFullKeyBoard *)keyboard normalBtnClickAction:(HJFCustomKeyboardButton *)sender{
+    [self.textField insertText:sender.currentTitle];
+}
+
+-(void)GTCarNumFullKeyBoard:(GTCarNumFullKeyBoard *)keyboard switchBtnClickAction:(HJFCustomKeyboardButton *)sender{
+    [self.textField resignFirstResponder];
+    
+    GTNumberAndAlphebetKeyboard *board2 = [GTNumberAndAlphebetKeyboard keyboard];
+    board2.needKeyboardSoundEffect=  YES;
+    board2.delegate  = self;
+    self.textField.inputView =board2;
+    [self.textField becomeFirstResponder];
+    
+    
+}
+
+
+#pragma mark - GTNumberAndAlphebetKeyboardDelegate 字母数字键盘
+-(void)GTNumberAndAlphebetKeyboard:(GTNumberAndAlphebetKeyboard *)keyboard normalBtnClickAction:(HJFCustomKeyboardButton *)sender{
+    [self.textField insertText:sender.currentTitle];
+}
+
+-(void)GTNumberAndAlphebetKeyboard:(GTNumberAndAlphebetKeyboard *)keyboard deleteBtnClickAction:(HJFCustomKeyboardButton *)sender{
+    [self.textField deleteBackward];
+    
+}
+
+-(void)GTNumberAndAlphebetKeyboard:(GTNumberAndAlphebetKeyboard *)keyboard switchBtnClickAction:(HJFCustomKeyboardButton *)sender{
+    [self.textField resignFirstResponder];
+    
+    GTCarNumFullKeyBoard *board2 = [GTCarNumFullKeyBoard keyboard];
+    board2.needKeyboardSoundEffect=  YES;
+    board2.delegate  = self;
+    self.textField.inputView =board2;
+    [self.textField becomeFirstResponder];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
