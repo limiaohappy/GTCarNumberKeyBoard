@@ -26,9 +26,16 @@
     board2.delegate  = self;
     self.textField.inputView =board2;
 
+    UITapGestureRecognizer *singleTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(closeKeyboard:)];
+    singleTapGesture.numberOfTapsRequired = 1;
+    singleTapGesture.cancelsTouchesInView = NO;
+    [self.view addGestureRecognizer:singleTapGesture];
     
     
         // Do any additional setup after loading the view, typically from a nib.
+}
+- (void)closeKeyboard:(UITapGestureRecognizer *)recognizer {
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }
 
 
